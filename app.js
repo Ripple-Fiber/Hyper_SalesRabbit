@@ -25,20 +25,20 @@ const HUBSPOT_API_URL = 'https://api.hubapi.com/crm/v3/objects/deals';
 const statusToDealStageMap = {
   "Post CX": "254026343",
   "DOOR HANG": "980657720",
-  "Door Hang 1": "254026343",
-  "Black Flag - Observed": "254085669",
-  "Not Interested": "254085670",
-  "Go Back": "254085671",
+  "Language Barrier": "995756127",
+  "BLACK FLAG": "995739908",
+  "NO INTEREST": "980657726",
+  "Go Back": "980657722",
   "Call Back": "254085672",
-  "Pre-Order": "254085673",
-  "NID": "254085674",
-  "Won": "254085675",
+  "SNOWBIRD": "995757939",
+  "VACANT LOT": "995757938",
+  "VACANT Home/SALE": "995757938",
   "Customer": "254085676",
-  "Private": "254085677",
-  "MDU": "254085678",
+  "ORDER/SALE": "980657723",
+  "MDU/POA": "995750050",
   "Business": "254085679",
-  "Abandoned Home": "254085680",
-  "In Progress": "254085681"
+  "Not Home/No Answer": "981960760",
+  "Interested": "980657721"
 };
 
 // Main route to handle incoming webhook requests
