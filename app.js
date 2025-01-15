@@ -24,7 +24,7 @@ const HUBSPOT_API_URL = 'https://api.hubapi.com/crm/v3/objects/deals';
 // Mapping of status values to deal stage IDs
 const statusToDealStageMap = {
   "Post CX": "254026343",
-  "Door Hang 2": "254026343",
+  "DOOR HANG": "980657720",
   "Door Hang 1": "254026343",
   "Black Flag - Observed": "254085669",
   "Not Interested": "254085670",
