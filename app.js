@@ -57,6 +57,9 @@ app.post('/webhook', async (req, res) => {
     const latitude = leadData.latitude || 'Unknown Latitude';
     const longitude = leadData.longitude || 'Unknown Longitude';
     const sales_rep = leadData.userId || 'Unknown userId';
+    const firstName = leadData.firstName || 'Unknown First Name';
+    const lastName = leadData.lastName || 'Unknown Last Name';
+    const email = leadData.email || 'Unknown Last email';
 
     // Get the corresponding deal stage ID based on the status field
     const dealStageId = statusToDealStageMap[status] || "254026343"; // Default to Post CX if status is not found
