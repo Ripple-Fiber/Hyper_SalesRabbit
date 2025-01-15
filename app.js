@@ -68,7 +68,7 @@ app.post('/webhook', async (req, res) => {
     const dealData = {
       "properties": {
         "dealname": fullAddress,  // Set deal name as the full address
-        "pipeline": "148931257",  // Replace with your actual pipeline ID
+        "pipeline": "668449138",  // Replace with your actual pipeline ID
         "dealstage": dealStageId,  // Dynamic deal stage based on status
         "address": street1,
         "city": city,
