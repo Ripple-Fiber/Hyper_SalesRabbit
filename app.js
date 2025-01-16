@@ -23,20 +23,22 @@ const HUBSPOT_API_URL = 'https://api.hubapi.com/crm/v3/objects/deals';
 
 // Mapping of status values to deal stage IDs
 const statusToDealStageMap = {
-  "Post CX": "254026343",
+  "POST CX": "995787436",
   "DOOR HANG": "980657720",
   "Language Barrier": "995756127",
   "BLACK FLAG": "995739908",
   "NO INTEREST": "980657726",
-  "Go Back": "980657722",
-  "Call Back": "254085672",
+  "GO BACK": "980657722",
+  "NO Soliciting": "995734163",
   "SNOWBIRD": "995757939",
-  "VACANT LOT": "995757938",
+  "VACANT LOT": "995739907",
   "VACANT Home/SALE": "995757938",
-  "Customer": "254085676",
+  "CUSTOMER": "995787437",
   "ORDER/SALE": "980657723",
   "MDU/POA": "995750050",
-  "Business": "254085679",
+  "BUSINESS": "995734162",
+  "Pre-Lit": "995757948",
+  "LIT": "995757949",
   "Not Home/No Answer": "981960760",
   "Interested": "980657721"
 };
